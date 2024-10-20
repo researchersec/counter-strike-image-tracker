@@ -23,7 +23,8 @@ const vpkFolders = [
     "panorama/images/econ/tools",
     "panorama/images/econ/weapons",
     "panorama/images/econ/weapon_cases",
-    "weapons/models/",
+    "weapons/",
+    "models/",
 ];
 
 async function downloadVPKDir(user, manifest) {
