@@ -12,19 +12,7 @@ const temp = "./temp";
 const manifestIdFile = "manifestId.txt";
 
 const vpkFolders = [
-    "panorama/images/econ/characters",
-    "panorama/images/econ/default_generated",
-    "panorama/images/econ/music_kits",
-    "panorama/images/econ/patches",
-    "panorama/images/econ/season_icons",
-    "panorama/images/econ/set_icons",
-    "panorama/images/econ/status_icons",
-    "panorama/images/econ/stickers",
-    "panorama/images/econ/tools",
-    "panorama/images/econ/weapons",
-    "panorama/images/econ/weapon_cases",
-    "weapons/",
-    "models/",
+    "panorama/images/icons/",
 ];
 
 async function downloadVPKDir(user, manifest) {
